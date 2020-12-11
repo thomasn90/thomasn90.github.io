@@ -4,19 +4,14 @@ import { AboutPage } from "./features/about";
 import { HomePage } from "./features/home";
 import { ProjectsPage } from "./features/projects";
 import { LeadershipPage } from "./features/leadership";
-import {
-  BrowserRouter as HashRouter,
-  Switch,
-  Route,
-  NavLink,
-} from "react-router-dom";
+import { Switch, Route, NavLink, BrowserRouter } from "react-router-dom";
 
 require("./common/styles/styles.css");
 
 class App extends Component {
   render() {
     return (
-      <HashRouter basename='/'>
+      <BrowserRouter basename="/">
         <div>
           <div>
             <div className="nav-home-adjust">
@@ -24,7 +19,7 @@ class App extends Component {
                 activeStyle={{ color: "black" }}
                 style={{ textDecoration: "none", color: "#3b5249" }}
                 className="title-text"
-                to="/home"
+                to="/thomasn90-github.io"
               >
                 Home
               </NavLink>
@@ -34,7 +29,7 @@ class App extends Component {
                 activeStyle={{ color: "black" }}
                 style={{ textDecoration: "none", color: "#3b5249" }}
                 className="regular-text"
-                to="/about"
+                to="/thomasn90-github.io/about"
               >
                 About
               </NavLink>
@@ -44,7 +39,7 @@ class App extends Component {
                 activeStyle={{ color: "black" }}
                 style={{ textDecoration: "none", color: "#3b5249" }}
                 className="regular-text"
-                to="/projects"
+                to="/thomasn90-github.io/projects"
               >
                 Projects
               </NavLink>
@@ -54,31 +49,30 @@ class App extends Component {
                 activeStyle={{ color: "black" }}
                 style={{ textDecoration: "none", color: "#3b5249" }}
                 className="regular-text"
-                to="/leadership"
+                to="/thomasn90-github.io/leadership"
               >
                 Leadership
               </NavLink>
             </div>
           </div>
           <Switch>
-            <Route exact path="/home">
+            <Route exact path="/thomasn90-github.io">
               <HomePage />
             </Route>
-            <Route path="/about">
+            <Route path="/thomasn90-github.io/about">
               <AboutPage />
             </Route>
-            <Route path="/projects">
+            <Route path="/thomasn90-github.io/projects">
               <ProjectsPage />
             </Route>
-            <Route path="/leadership">
+            <Route path="/thomasn90-github.io/leadership">
               <LeadershipPage />
             </Route>
           </Switch>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
-
 
 export default App;
