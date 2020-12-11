@@ -5,7 +5,7 @@ import { HomePage } from "./features/home";
 import { ProjectsPage } from "./features/projects";
 import { LeadershipPage } from "./features/leadership";
 import {
-  BrowserRouter as Router,
+  BrowserRouter as HashRouter,
   Switch,
   Route,
   NavLink,
@@ -16,7 +16,7 @@ require("./common/styles/styles.css");
 class App extends Component {
   render() {
     return (
-      <Router>
+      <HashRouter basename='/'>
         <div>
           <div>
             <div className="nav-home-adjust">
@@ -61,7 +61,7 @@ class App extends Component {
             </div>
           </div>
           <Switch>
-            <Route path="/home">
+            <Route exact path="/home">
               <HomePage />
             </Route>
             <Route path="/about">
@@ -75,9 +75,10 @@ class App extends Component {
             </Route>
           </Switch>
         </div>
-      </Router>
+      </HashRouter>
     );
   }
 }
+
 
 export default App;
