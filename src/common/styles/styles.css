@@ -150,11 +150,20 @@ a:visited {
   line-height: 3.75rem;
   display: flex;
   align-items: center;
-  color: #3b5249;
+  color: #406422;
 }
 
 .green {
-  color: #3b5249;
+  color: #406422;
+}
+
+.regular-text-greenish {
+  font-family: Neue Haas Grotesk Text Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  color: #406422;
 }
 
 .title-text-2 {
@@ -183,8 +192,10 @@ a:visited {
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 1.875rem;
-  color: #3b5249;
+  color: #1D1D1D;
 }
+
+
 
 /* Media Queries: Tablet Landscape */
 @media screen and (max-width: 1060px) {
