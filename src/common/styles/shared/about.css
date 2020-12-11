@@ -1,0 +1,56 @@
+/* About Page CSS */
+.about-background {
+  background: linear-gradient(180deg, #fad0c4 0%, #ffd1ff 100%);
+}
+
+.about-text-overall-box {
+  width: 68.25rem;
+  height: 12.75rem;
+}
+
+.about-text-box {
+  width: 39.19rem;
+  left: 34.38rem;
+  top: 1.813rem;
+  position: absolute;
+}
+
+.about-titles-adjust {
+  top: 1.813rem;
+  position: absolute;
+}
+
+.about-title-adjust {
+  padding-top: 6.75rem;
+}
+
+.about-education-adjust {
+  position: absolute;
+  top: 18.44rem;
+}
+
+.about-engineering-adjust {
+  position: absolute;
+  top: 42.75rem;
+}
+
+.about-volunteering-adjust {
+  position: absolute;
+  top: 75rem;
+}
+
+.about-hobbies-adjust {
+  position: absolute;
+  top: 104.3rem;
+}
+
+.empty-box {
+  width: 69.5rem;
+  height: 9.375rem;
+  border: 0rem solid #c4c4c4;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.02));
+  border-radius: 0.1875rem;
+  position: absolute;
+  top: 125rem;
+}

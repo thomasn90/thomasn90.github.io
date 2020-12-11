@@ -1,0 +1,176 @@
+@import "./shared/basscss.css";
+@import "./shared/about.css";
+@import "./shared/home.css";
+@import "./shared/projects.css";
+@import "./shared/navbar.css";
+
+html {
+  font-family: Poppins;
+  font-style: normal;
+  color: #000000;
+}
+
+/* Text Styles */
+.h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 6rem;
+}
+
+.h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+
+.h3 {
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 3.375rem;
+}
+
+.h4 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.h5 {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.6875rem;
+}
+
+.paragraph {
+  font-weight: 300;
+  font-size: 0.875rem;
+  line-height: 1.6875rem;
+}
+
+.text-selected {
+  color: #4965f3;
+}
+
+.text-unselected {
+  color: #949494;
+}
+
+/* Button / Hover Rectangle Styles */
+.rectangle-outer {
+  background: #4965f3;
+  border-radius: 0.1875rem;
+}
+
+.rectangle-text {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.rectangle-outer-border {
+  border: 0.031rem solid #4965f3;
+  box-sizing: border-box;
+  border-radius: 0.188rem;
+}
+
+/* Generic Styles */
+.line-divider-thin {
+  border: 0.03125rem solid #c4c4c4;
+}
+
+.line-divider-thick {
+  border: 0.0625rem solid #c4c4c4;
+}
+
+/* Links */
+.link-decorator {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4965f3;
+}
+
+/* Menus */
+.drop-down {
+}
+.drop-down:hover {
+  background: #4965f3;
+  border-radius: 0.1875rem;
+  color: #ffffff;
+}
+
+/* Borders */
+.entry-border-box {
+  background: #ffffff;
+  border: 0.03125rem solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 0.1875rem;
+}
+
+.section-border-box {
+  background: #ffffff;
+  border: 0.03125rem solid #949494;
+  box-sizing: border-box;
+
+  /* Light Shadow */
+  box-shadow: 0rem 0rem 0.5rem rgba(0, 0, 0, 0.02);
+  border-radius: 0.4375rem;
+}
+
+/* Cursors */
+.in-progress {
+  cursor: progress;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.middle {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.title-text {
+  font-family: Neue Haas Grotesk Text Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 3.75rem;
+  display: flex;
+  align-items: center;
+  color: #3b5249;
+}
+
+.green {
+  color: #3b5249;
+}
+
+.regular-text {
+  font-family: Neue Haas Grotesk Text Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  color: #000000;
+}
+
+.regular-text-green {
+  font-family: Neue Haas Grotesk Text Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+  color: #3b5249;
+}

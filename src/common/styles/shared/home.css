@@ -1,0 +1,41 @@
+/* Home Page CSS */
+.home-page-box {
+    width: 69.5rem;
+    height: 19.69rem;
+  }
+  
+  .home-page-text-box {
+    width: 44.31rem;
+    height: 16.88rem;
+  }
+  
+  .hello-world-text {
+    font-family: Neue Haas Grotesk Text Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.25rem;
+    line-height: 2.813rem;
+    color: #3b5249;
+  }
+  
+  .home-summary-text {
+    font-family: Neue Haas Grotesk Text Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
+    color: #3b5249;
+  }
+  
+  hr {
+    width: 30%;
+    margin: 0 auto;
+  }
+  
+  .home-adjustments {
+    padding-top: 21.88rem;
+    padding-left: 15.63rem;
+  }
+  .home-profile {
+    padding-left: 54.38rem;
+  }

@@ -1,0 +1,49 @@
+/* Experience CSS */
+.exp-box {
+    width: 73.63rem;
+    height: 22.69rem;
+    filter: drop-shadow(0.375rem 0.375rem 3.125rem rgba(0, 0, 0, 0.1));
+    border: 0.05rem solid #222222;
+    box-sizing: border-box;
+    border-radius: 2.125rem;
+  }
+  
+  .exp-text-box {
+    width: 46.06rem;
+  }
+  
+  .exp-title-adjust {
+    position: absolute;
+    top: 1.125rem;
+    left: 2.375rem;
+  }
+  
+  .exp-date-adjust {
+    position: absolute;
+    top: 5.438rem;
+    left: 2.5rem;
+  }
+  .exp-text-adjust {
+    position: absolute;
+    top: 9.813rem;
+    left: 2.5rem;
+  }
+  .exp-img-adjust {
+    position: absolute;
+    left: 49.81rem;
+  }
+  
+  /* Project CSS */
+  .proj-rcreator-adjust {
+    position: absolute;
+    top: 22.81rem;
+  }
+  
+  .proj-bottom-padding {
+    padding-bottom: 10.38rem;
+  }
+  
+  .visible {
+    overflow: visible;
+  }
+  

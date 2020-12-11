@@ -1,0 +1,25 @@
+
+/* NavBar CSS */
+.nav-home-adjust {
+    position: absolute;
+    top: 2.5rem;
+    left: 6.25rem;
+  }
+  
+  .nav-about-adjust {
+    position: absolute;
+    top: 3.75rem;
+    right: 33.69rem;
+  }
+  
+  .nav-projects-adjust {
+    position: absolute;
+    top: 3.75rem;
+    right: 20.63rem;
+  }
+  .nav-leadership-adjust {
+    position: absolute;
+    top: 3.75rem;
+    right: 7.563rem;
+  }
+  
