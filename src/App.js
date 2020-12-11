@@ -23,7 +23,7 @@ class App extends Component {
               <NavLink
                 activeStyle={{ color: "black" }}
                 style={{ textDecoration: "none", color: "#3b5249" }}
-                className="regular-text"
+                className="title-text"
                 to="/"
               >
                 Home
