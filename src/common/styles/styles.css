@@ -157,6 +157,17 @@ a:visited {
   color: #3b5249;
 }
 
+.title-text-2 {
+  font-family: Neue Haas Grotesk Text Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 3.75rem;
+  display: flex;
+  align-items: center;
+  color: #3b5249;
+}
+
 .regular-text {
   font-family: Neue Haas Grotesk Text Pro;
   font-style: normal;

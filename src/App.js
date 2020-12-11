@@ -4,21 +4,26 @@ import { AboutPage } from "./features/about";
 import { HomePage } from "./features/home";
 import { ProjectsPage } from "./features/projects";
 import { LeadershipPage } from "./features/leadership";
-import { Switch, Route, NavLink, HashRouter as BrowserRouter } from "react-router-dom";
+import {
+  Switch,
+  Route,
+  NavLink,
+  HashRouter as BrowserRouter,
+} from "react-router-dom";
 
 require("./common/styles/styles.css");
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
+      <BrowserRouter basename="/">
         <div>
           <div>
             <div className="nav-home-adjust">
               <NavLink
                 activeStyle={{ color: "black" }}
                 style={{ textDecoration: "none", color: "#3b5249" }}
-                className="title-text"
+                className="regular-text"
                 to="/"
               >
                 Home
