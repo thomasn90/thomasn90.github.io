@@ -13,38 +13,38 @@ html {
 /* Text Styles */
 .h1 {
   font-weight: 600;
-  font-size: 4rem;
-  line-height: 6rem;
+  font-size: 4vw;
+  line-height: 6vw;
 }
 
 .h2 {
   font-weight: 600;
-  font-size: 3rem;
-  line-height: 4.5rem;
+  font-size: 3vw;
+  line-height: 4.5vw;
 }
 
 .h3 {
   font-weight: 600;
-  font-size: 2.25rem;
-  line-height: 3.375rem;
+  font-size: 2.25vw;
+  line-height: 3.375vw;
 }
 
 .h4 {
   font-weight: 600;
-  font-size: 1.5rem;
-  line-height: 2.25rem;
+  font-size: 1.5vw;
+  line-height: 2.25vw;
 }
 
 .h5 {
   font-weight: 500;
-  font-size: 1.125rem;
-  line-height: 1.6875rem;
+  font-size: 1.125vw;
+  line-height: 1.6875vw;
 }
 
 .paragraph {
   font-weight: 300;
-  font-size: 0.875rem;
-  line-height: 1.6875rem;
+  font-size: 0.875vw;
+  line-height: 1.6875vw;
 }
 
 .text-selected {
@@ -58,30 +58,30 @@ html {
 /* Button / Hover Rectangle Styles */
 .rectangle-outer {
   background: #4965f3;
-  border-radius: 0.1875rem;
+  border-radius: 0.1875vw;
 }
 
 .rectangle-text {
   font-weight: 600;
-  font-size: 0.875rem;
-  line-height: 1.3125rem;
+  font-size: 0.875vw;
+  line-height: 1.3125vw;
   text-align: center;
   color: #ffffff;
 }
 
 .rectangle-outer-border {
-  border: 0.031rem solid #4965f3;
+  border: 0.031vw solid #4965f3;
   box-sizing: border-box;
-  border-radius: 0.188rem;
+  border-radius: 0.188vw;
 }
 
 /* Generic Styles */
 .line-divider-thin {
-  border: 0.03125rem solid #c4c4c4;
+  border: 0.03125vw solid #c4c4c4;
 }
 
 .line-divider-thick {
-  border: 0.0625rem solid #c4c4c4;
+  border: 0.0625vw solid #c4c4c4;
 }
 
 /* Links */
@@ -98,26 +98,26 @@ a:visited {
 }
 .drop-down:hover {
   background: #4965f3;
-  border-radius: 0.1875rem;
+  border-radius: 0.1875vw;
   color: #ffffff;
 }
 
 /* Borders */
 .entry-border-box {
   background: #ffffff;
-  border: 0.03125rem solid #c4c4c4;
+  border: 0.03125vw solid #c4c4c4;
   box-sizing: border-box;
-  border-radius: 0.1875rem;
+  border-radius: 0.1875vw;
 }
 
 .section-border-box {
   background: #ffffff;
-  border: 0.03125rem solid #949494;
+  border: 0.03125vw solid #949494;
   box-sizing: border-box;
 
   /* Light Shadow */
-  box-shadow: 0rem 0rem 0.5rem rgba(0, 0, 0, 0.02);
-  border-radius: 0.4375rem;
+  box-shadow: 0vw 0vw 0.5vw rgba(0, 0, 0, 0.02);
+  border-radius: 0.4375vw;
 }
 
 /* Cursors */
@@ -146,8 +146,8 @@ a:visited {
   font-family: Neue Haas Grotesk Text Pro;
   font-style: normal;
   font-weight: bold;
-  font-size: 3rem;
-  line-height: 3.75rem;
+  font-size: 3vw;
+  line-height: 3.75vw;
   display: flex;
   align-items: center;
   color: #406422;
@@ -161,8 +161,8 @@ a:visited {
   font-family: Neue Haas Grotesk Text Pro;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 1.875rem;
+  font-size: 1.5vw;
+  line-height: 1.875vw;
   color: #406422;
 }
 
@@ -170,8 +170,8 @@ a:visited {
   font-family: Neue Haas Grotesk Text Pro;
   font-style: normal;
   font-weight: bold;
-  font-size: 3rem;
-  line-height: 3.75rem;
+  font-size: 3vw;
+  line-height: 3.75vw;
   display: flex;
   align-items: center;
   color: #3b5249;
@@ -181,8 +181,8 @@ a:visited {
   font-family: Neue Haas Grotesk Text Pro;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 1.875rem;
+  font-size: 1.5vw;
+  line-height: 1.875vw;
   color: #000000;
 }
 
@@ -190,8 +190,8 @@ a:visited {
   font-family: Neue Haas Grotesk Text Pro;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.5rem;
-  line-height: 1.875rem;
+  font-size: 1.5vw;
+  line-height: 1.875vw;
   color: #1D1D1D;
 }
 

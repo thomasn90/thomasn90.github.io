@@ -1,5 +1,7 @@
 import { React } from "react";
-import { ReactComponent as Prof } from "../../../src/images/home_ellipse.svg";
+import  home_ellpise  from "../../../src/images/home_ellipse.svg";
+// import home_ellpise from "../../../src/images/home_ellpise.svg";
+
 export function HomePage() {
   return (
     <div className="home-adjustments">
@@ -18,8 +20,10 @@ export function HomePage() {
           <div className="home-summary-text">Email: thomasn90@berkeley.edu</div>
         </div>
         <div className="home-profile absolute">
-          <Prof />
+        <img src={home_ellpise} alt="Profile Picture" />{" "}
+
         </div>
+
       </div>
     </div>
   );

@@ -1,20 +1,21 @@
 /* Home Page CSS */
 .home-page-box {
-  width: 69.5rem;
-  height: 19.69rem;
+  width: 69.5vw;
+  height: 19.69vw;
 }
 
 .home-page-text-box {
-  width: 44.31rem;
-  height: 16.88rem;
+  width: 44vw;
+  height: 16vw;
+  overflow: visible;
 }
 
 .hello-world-text {
   font-family: Neue Haas Grotesk Text Pro;
   font-style: normal;
   font-weight: bold;
-  font-size: 2.25rem;
-  line-height: 2.813rem;
+  font-size: 2vw;
+  line-height: 2.813vw;
   color: #406422;
 }
 
@@ -22,8 +23,8 @@
   font-family: Neue Haas Grotesk Text Pro;
   font-style: normal;
   font-weight: 600;
-  font-size: 1.125rem;
-  line-height: 1.375rem;
+  font-size: 1vw;
+  line-height: 1.375vw;
   color: #406422;
 }
 
@@ -33,10 +34,10 @@ hr {
 }
 
 .home-adjustments {
-  position: fixed;
+  position: absolute;
   top: 34%;
   left: 15%;
-  right :15%
+  right: 15%;
 }
 .home-profile {
   left: 73%;

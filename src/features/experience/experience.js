@@ -12,7 +12,7 @@ export class Experience extends Component {
           {this.props.text}
         </div>
         <div className="exp-img-adjust">
-          <img src={this.props.img} alt="React Logo" />{" "}
+          <img src={this.props.img} alt="Work Experience" />{" "}
         </div>
       </div>
     );

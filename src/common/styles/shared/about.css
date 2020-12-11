@@ -4,53 +4,53 @@
 }
 
 .about-text-overall-box {
-  width: 68.25rem;
-  height: 12.75rem;
+  width: 68.25vw;
+  height: 12.75vw;
 }
 
 .about-text-box {
-  width: 39.19rem;
-  left: 34.38rem;
-  top: 1.813rem;
+  width: 39.19vw;
+  left: 34.38vw;
+  top: 1.813vw;
   position: absolute;
 }
 
 .about-titles-adjust {
-  top: 1.813rem;
+  top: 1.813vw;
   position: absolute;
 }
 
 .about-title-adjust {
-  padding-top: 6.75rem;
+  top: 6.75vw;
 }
 
 .about-education-adjust {
   position: absolute;
-  top: 18.44rem;
+  top: 18.44vw;
 }
 
 .about-engineering-adjust {
   position: absolute;
-  top: 42.75rem;
+  top: 42.75vw;
 }
 
 .about-volunteering-adjust {
   position: absolute;
-  top: 75rem;
+  top: 75vw;
 }
 
 .about-hobbies-adjust {
   position: absolute;
-  top: 104.3rem;
+  top: 104.3vw;
 }
 
 .empty-box {
-  width: 69.5rem;
-  height: 9.375rem;
-  border: 0rem solid #c4c4c4;
+  width: 69.5vw;
+  height: 9.375vw;
+  border: 0vw solid #c4c4c4;
   box-sizing: border-box;
   filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.02));
-  border-radius: 0.1875rem;
+  border-radius: 0.1875vw;
   position: absolute;
-  top: 125rem;
+  top: 125vw;
 }
