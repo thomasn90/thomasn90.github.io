@@ -4,14 +4,14 @@ import { AboutPage } from "./features/about";
 import { HomePage } from "./features/home";
 import { ProjectsPage } from "./features/projects";
 import { LeadershipPage } from "./features/leadership";
-import { Switch, Route, NavLink, BrowserRouter } from "react-router-dom";
+import { Switch, Route, NavLink, HashRouter as BrowserRouter } from "react-router-dom";
 
 require("./common/styles/styles.css");
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter basename="/">
+      <BrowserRouter basename={process.env.PUBLIC_URL + "/"}>
         <div>
           <div>
             <div className="nav-home-adjust">
@@ -19,7 +19,7 @@ class App extends Component {
                 activeStyle={{ color: "black" }}
                 style={{ textDecoration: "none", color: "#3b5249" }}
                 className="title-text"
-                to="/thomasn90-github.io"
+                to="/"
               >
                 Home
               </NavLink>
@@ -29,7 +29,7 @@ class App extends Component {
                 activeStyle={{ color: "black" }}
                 style={{ textDecoration: "none", color: "#3b5249" }}
                 className="regular-text"
-                to="/thomasn90-github.io/about"
+                to="/about"
               >
                 About
               </NavLink>
@@ -39,7 +39,7 @@ class App extends Component {
                 activeStyle={{ color: "black" }}
                 style={{ textDecoration: "none", color: "#3b5249" }}
                 className="regular-text"
-                to="/thomasn90-github.io/projects"
+                to="/projects"
               >
                 Projects
               </NavLink>
@@ -49,23 +49,23 @@ class App extends Component {
                 activeStyle={{ color: "black" }}
                 style={{ textDecoration: "none", color: "#3b5249" }}
                 className="regular-text"
-                to="/thomasn90-github.io/leadership"
+                to="/leadership"
               >
                 Leadership
               </NavLink>
             </div>
           </div>
           <Switch>
-            <Route exact path="/thomasn90-github.io">
+            <Route exact path="/">
               <HomePage />
             </Route>
-            <Route path="/thomasn90-github.io/about">
+            <Route path="/about">
               <AboutPage />
             </Route>
-            <Route path="/thomasn90-github.io/projects">
+            <Route path="/projects">
               <ProjectsPage />
             </Route>
-            <Route path="/thomasn90-github.io/leadership">
+            <Route path="/leadership">
               <LeadershipPage />
             </Route>
           </Switch>
